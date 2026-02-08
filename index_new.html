@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5-Day Hypertrophy Workout – Week 2 (Compact)</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 10pt;
+            line-height: 1.5;
+            color: #000;
+            background: #fafafa;
+            padding: 0;
+        }
+        .page {
+            width: 210mm;
+            min-height: 297mm;
+            padding: 18mm;
+            margin: 0 auto 18px;
+            background: #fff;
+            box-shadow: 0 0 6px rgba(0,0,0,0.15);
+            page-break-after: always;
+        }
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #222;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+        .header h1 {
+            color: #111;
+            font-size: 18pt;
+            margin-bottom: 4px;
+            font-weight: bold;
+        }
+        .header .day-title {
+            font-size: 13pt;
+            color: #222;
+            font-weight: bold;
+            margin: 4px 0;
+        }
+        .header .subtitle {
+            font-size: 9pt;
+            color: #555;
+        }
+        h3 {
+            color: #111;
+            font-size: 10.5pt;
+            margin: 10px 0 6px 0;
+            background-color: #f2f2f2;
+            padding: 4px 6px;
+            text-transform: uppercase;
+        }
+        h4 {
+            font-size: 10pt;
+            margin: 8px 0 4px 0;
+            color: #111;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 8px;
+            font-size: 9pt;
+        }
+        th {
+            background: #1a73e8;
+            color: #fff;
+            padding: 4px 6px;
+            text-align: left;
+            font-weight: bold;
+            font-size: 8pt;
+        }
+        td {
+            padding: 3px 6px;
+            border-bottom: 1px solid #ddd;
+        }
+        tr:nth-child(even) td {
+            background-color: #f9f9f9;
+        }
+        .exercise-name {
+            font-weight: bold;
+            color: #1a73e8;
+        }
+        .warmup-box, .cooldown-box {
+            background: #eef4ff;
+            padding: 6px 8px;
+            border-radius: 3px;
+            margin-bottom: 8px;
+            font-size: 9pt;
+        }
+        .warmup-box h4, .cooldown-box h4 {
+            margin-bottom: 4px;
+            font-size: 9.5pt;
+        }
+        .warmup-box ul, .cooldown-box ul {
+            margin-left: 16px;
+        }
+        .form-cue {
+            background-color: #e8f4f5;
+            border-left: 2px solid #1a73e8;
+            padding: 4px 6px;
+            margin: 4px 0;
+            font-size: 8pt;
+        }
+        .form-cue strong {
+            color: #1a73e8;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            border-radius: 8px;
+            font-size: 7pt;
+            font-weight: bold;
+            margin-left: 5px;
+            color: #fff;
+        }
+        .badge-heavy { background-color: #d93025; }
+        .badge-metabolic { background-color: #ea8600; }
+        .badge-pump { background-color: #188038; }
+        .superset-label {
+            background-color: #ea8600;
+            color: #fff;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-size: 7pt;
+            margin-left: 5px;
+        }
+        .session-summary {
+            background-color: #eef4ff;
+            border: 1px solid #1a73e8;
+            padding: 8px;
+            border-radius: 3px;
+            margin-top: 10px;
+            font-size: 8pt;
+        }
+        .session-summary h4 {
+            color: #1a73e8;
+            margin-bottom: 4px;
+            font-size: 9pt;
+        }
+        .note {
+            font-size: 8pt;
+            margin-bottom: 4px;
+            color: #444;
+        }
+        .print-btn {
+            position: fixed;
+            top: 16px;
+            right: 16px;
+            background: #1a73e8;
+            color: #fff;
+            padding: 8px 18px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 10pt;
+            font-weight: bold;
+            z-index: 1000;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+        }
+        .print-btn:hover { transform: scale(1.03); }
+        @media print {
+            body { padding: 0; background: #fff; }
+            .page {
+                width: 210mm;
+                min-height: 297mm;
+                padding: 15mm;
+                margin: 0;
+                box-shadow: none;
+                page-break-after: always;
+            }
+            .print-btn { display: none; }
+        }
+        @media screen and (max-width: 768px) {
+            .page {
+                width: 100%;
+                min-height: auto;
+                padding: 10px;
+                margin-bottom: 10px;
+            }
+            .print-btn {
+                position: relative;
+                display: block;
+                margin: 10px auto;
+            }
+        }
+    </style>
+</head>
+<body>
+<button class="print-btn" onclick="window.print()">PRINT PDF (5 PAGES)</button>
+
+<!-- PAGE 1: MONDAY -->
+<div class="page">
+    <div class="header">
+        <h1>5-DAY HYPERTROPHY PROGRAM – WEEK 2</h1>
+        <div class="day-title">MONDAY – UPPER PUSH A</div>
+        <div class="subtitle">Session time: 6:30–7:45</div>
+    </div>
+
+    <div class="warmup-box">
+        <h4>WARM-UP (about 8 minutes)</h4>
+        <ul>
+            <li>Light cardio (treadmill/rowing): 3 minutes, easy pace</li>
+            <li>Arm circles (forward/backward): 1 minute total</li>
+            <li>Band pull-aparts: 2 × 15</li>
+            <li>Bodyweight push-ups: 1 × 10</li>
+        </ul>
+    </div>
+
+    <h3>Main Workout</h3>
+
+    <h4>1. Barbell Chest Press (Heavy) <span class="badge badge-heavy">PRIMARY</span></h4>
+    <p class="note">Week 1 baseline around 60–65 kg. In Week 2, keep 60–65 kg and aim to add reps within the 8–10 rep range.</p>
+    <table>
+        <tr>
+            <th>Set</th><th>Reps</th><th>Weight</th><th>Rest</th><th>Notes</th>
+        </tr>
+        <tr>
+            <td>1</td><td>10</td><td>50 kg (warm-up)</td><td>2–2.5 min</td><td>Easy, groove pattern</td>
+        </tr>
+        <tr>
+            <td>2</td><td>8–10</td><td>60 kg</td><td>2–2.5 min</td><td>Leave 2–3 reps in reserve</td>
+        </tr>
+        <tr>
+            <td>3</td><td>8–10</td><td>60–65 kg</td><td>2–2.5 min</td><td>RPE about 7–8</td>
+        </tr>
+        <tr>
+            <td>4</td><td>8–10 (optional)</td><td>60–65 kg</td><td>—</td><td>Only if time and energy allow</td>
+        </tr>
+    </table>
+    <div class="form-cue">
+        <strong>Form:</strong> Full range of motion, light touch on chest, controlled 2 s down, strong but controlled press up, shoulder blades back and down.
+    </div>
+
+    <h4>2. Superset: Incline Dumbbell Press + Chest-Supported Row <span class="superset-label">SUPERSET</span></h4>
+    <p class="note">Week 1: 16–18 kg each for both pressing and rowing. Keep similar loads and push toward top of rep range.</p>
+    <table>
+        <tr>
+            <th>Exercise</th><th>Sets</th><th>Reps</th><th>Weight</th><th>Rest</th>
+        </tr>
+        <tr>
+            <td class="exercise-name">2A: Incline Chest Press (DB)</td>
+            <td>4</td>
+            <td>10–12</td>
+            <td>16–18 kg each</td>
+            <td>60 s → 2B</td>
+        </tr>
+        <tr>
+            <td class="exercise-name">2B: Chest-Supported Row</td>
+            <td>4</td>
+            <td>10–12</td>
+            <td>similar effort as 2A (e.g. 16–18 kg per side or equivalent)</td>
+            <td>90 s → 2A</td>
+        </tr>
+    </table>
+    <div class="form-cue">
+        <strong>Incline press:</strong> 30–45° bench, neutral or slight pronated grip, full range. 
+        <strong>Row:</strong> Chest supported, drive elbows back, squeeze shoulder blades.
+    </div>
+
+    <h4>3. Superset: Upright Row + Cable Fly (High to Low) <span class="superset-label">SUPERSET</span></h4>
+    <p class="note">Week 1: Upright row about 12 kg DB; cable fly about 7–8 kg per side. Aim for 12–15 reps before increasing weight.</p>
+    <table>
+        <tr>
+            <th>Exercise</th><th>Sets</th><th>Reps</th><th>Weight</th><th>Rest</th>
+        </tr>
+        <tr>
+            <td class="exercise-name">3A: Upright Row (DB or cable)</td>
+            <td>3</td>
+            <td>12–15</td>
+            <td>about 12 kg each or equivalent</td>
+            <td>45 s → 3B</td>
+        </tr>
+        <tr>
+            <td class="exercise-name">3B: Cable Fly (High to Low)</td>
+            <td>3</td>
+            <td>12–15</td>
+            <td>7–8 kg per side</td>
+            <td>90 s → 3A</td>
+        </tr>
+    </table>
+
+    <h4>4. Dumbbell Shoulder Press</h4>
+    <p class="note">Week 1: 12 kg each. Keep 12 kg and try to reach 10–12 reps on all sets.</p>
+    <table>
+        <tr>
+            <th>Sets</th><th>Reps</th><th>Weight</th><th>Rest</th>
+        </tr>
+        <tr>
+            <td>3</td><td>10–12</td><td>12 kg each</td><td>90 s</td>
+        </tr>
+    </table>
+
+    <h4>5. Superset: Triceps Dip + Rope Pushdown <span class="superset-label">SUPERSET</span></h4>
+    <p class="note">Week 1: Dips about 7 reps; pushdown about 12.5 kg. Try to add a rep or two per set this week.</p>
+    <table>
+        <tr>
+            <th>Exercise</th><th>Sets</th><th>Reps</th><th>Weight</th><th>Rest</th>
+        </tr>
+        <tr>
+            <td class="exercise-name">5A: Triceps Dip (bodyweight/assisted)</td>
+            <td>3</td>
+            <td>6–10</td>
+            <td>Bodyweight or light assistance</td>
+            <td>60 s → 5B</td>
+        </tr>
+        <tr>
+            <td class="exercise-name">5B: Rope Triceps Pushdown</td>
+            <td>3</td>
+            <td>10–15</td>
+            <td>about 12.5 kg</td>
+            <td>90 s → 5A</td>
+        </tr>
+    </table>
+
+    <h4>6. Core Finisher <span class="badge badge-pump">CORE</span></h4>
+    <table>
+        <tr>
+            <th>Exercise</th><th>Sets</th><th>Duration / Reps</th><th>Rest</th>
+        </tr>
+        <tr>
+            <td class="exercise-name">Plank</td>
+            <td>3</td>
+            <td>30–45 s</td>
+            <td>30 s</td>
+        </tr>
+        <tr>
+            <td class="exercise-name">Russian Twist</td>
+            <td>3</td>
+            <td>16–20 total</td>
+            <td>30 s</td>
+        </tr>
+    </table>
+
+    <div class="cooldown-box">
+        <h4>Cool-down (about 6 minutes)</h4>
+        <ul>
+            <li>Chest stretch: 30 s each side</li>
+            <li>Shoulder stretch (cross-body): 30 s each side</li>
+            <li>Triceps stretch (overhead): 30 s each side</li>
+            <li>Spinal rotation: about 45 s</li>
+            <li>Easy breathing: about 2 minutes</li>
+        </ul>
+    </div>
+
+    <div class="session-summary">
+        <h4>Session Summary</h4>
+        <p><strong>Duration:</strong> about 70 minutes. <strong>Focus:</strong> chest, shoulders, triceps with some upper-back work. Aim for RPE 7–8 on main sets.</p>
+    </div>
+</div>
+
+<!-- PAGE 2: TUESDAY -->
+<div class="page">
+    <div class="header">
+        <h1>5-DAY HYPERTROPHY PROGRAM – WEEK 2</h1>
+        <div class="day-title">TUESDAY – LOWER A</div>
+        <div class="subtitle">Session time: 6:30–7:45</div>
+    </div>
+
+    <div class="warmup-box">
+        <h4>WARM-UP (about 9 minutes)</h4>
+        <ul>
+            <li>Light cardio (bike or treadmill): 3 minutes</li>
+            <li>Bodyweight squats: 1 × 15</li>
+            <li>Leg swings: about 2 minutes</li>
+            <li>Glute bridges: 2 × 15</li>
+            <li>Cat-cow: 10 repetitions</li>
+        </ul>
+    </div>
+
+    <h3>Main Workout</h3>
+
+    <h4>1. Superset: Back Squat + Barbell Hip Thrust <span class="superset-label">SUPERSET</span> <span class="badge badge-heavy">PRIMARY</span></h4>
+    <p class="note">Week 1: Back squat 50–65 kg, hip thrust around 30 kg. Week 2: keep similar loads, build reps and confidence.</p>
+    <table>
+        <tr>
+            <th>Exercise</th><th>Sets</th><th>Reps</th><th>Weight</th><th>Rest</th>
+        </tr>
+        <tr>
+            <td class="exercise-name">1A: Back Squat</td>
+            <td>4</td>
+            <td>6–10</td>
+            <td>50–65 kg</td>
+            <td>60 s → 1B</td>
+        </tr>
+        <tr>
+            <td class="exercise-name">1B: Barbell Hip Thrust</td>
+            <td>4</td>
+            <td>8–10</td>
+            <td>about 30 kg</td>
+            <td>2 min → 1A</td>
+        </tr>
+    </table>
+
+    <h4>2. Superset: Goblet Squat + Hamstring Curls <span class="superset-label">SUPERSET</span></h4>
+    <p class="note">Week 1: Goblet squat 12–18 kg; hamstring curls 55–57 kg. Work toward 12–15 reps.</p>
+    <table>
+        <tr>
+            <th>Exercise</th><th>Sets</th><th>Reps</th><th>Weight</th><th>Rest</th>
+        </tr>
+        <tr>
+            <td class="exercise-name">2A: Goblet Squat</td>
+            <td>3</td>
+            <td>12–15</td>
+            <td>12–18 kg (DB or kettlebell)</td>
+            <td>60 s → 2B</td>
+        </tr>
+        <tr>
+            <td class="exercise-name">2B: Hamstring Curls</td>
+            <td>3</td>
+            <td>12–15</td>
+            <td>55–57 kg</td>
+            <td>90 s → 2A</td>
+        </tr>
+    </table>
+
+    <h4>3. Superset: Walking Lunges + Calf Raises <span class="superset-label">SUPERSET</span></h4>
+    <p class="note">Week 1: Lunges with 12 kg each hand; calf raises about 40 kg seated. Keep these loads and improve rep quality.</p>
+    <table>
+        <tr>
+            <th>Exercise</th><th>Sets</th><th>Reps</th><th>Weight</th><th>Rest</th>
+        </tr>
+        <tr>
+            <td class="exercise-name">3A: Walking Lunges</td>
+            <td>2</td>
+            <td>12–15 each leg</td>
+            <td>about 12 kg each</td>
+            <td>60 s → 3B</td>
+        </tr>
+        <tr>
+            <td class="exercise-name">3B: Calf Raises (standing or seated)</td>
+            <td>3</td>
+            <td>15–20</td>
+            <td>about 40 kg</td>
+            <td>90 s → 3A</td>
+        </tr>
+    </table>
+
+    <h4>4. Core Finisher <span class="badge badge-pump">CORE</span></h4>
+    <table>
+        <tr>
+            <th>Exercise</th><th>Sets</th><th>Reps</th><th>Rest</th>
+        </tr>
+        <tr>
+            <td class="exercise-name">Double Crunch</td>
+            <td>2–3</td>
+            <td>12–15</td>
+            <td>30 s</td>
+        </tr>
+        <tr>
+            <td class="exercise-name">Lying Leg Raise</td>
+            <td>2–3</td>
+            <td>12–15</td>
+            <td>30 s</td>
+        </tr>
+    </table>
+
+    <div class="cooldown-box">
+        <h4>Cool-down (about 6 minutes)</h4>
+        <ul>
+            <li>Quad stretch: 30 s each leg</li>
+            <li>Hamstring stretch: 30 s each leg</li>
+            <li>Hip flexor stretch: 30 s each side</li>
+            <li>Glute stretch: about 45 s</li>
+            <li>Spinal twist: about 45 s</li>
+            <li>Easy breathing: about 2 minutes</li>
+        </ul>
+    </div>
+
+    <div class="session-summary">
+        <h4>Session Summary</h4>
+        <p><strong>Duration:</strong> about 70–75 minutes. <strong>Focus:</strong> quads, glutes, hamstrings, calves. Stay technical, RPE around 7–8.</p>
+    </div>
+</div>
+
+<!-- PAGE 3: WEDNESDAY -->
+<div class="page">
+    <div class="header">
+        <h1>5-DAY HYPERTROPHY PROGRAM – WEEK 2</h1>
+        <div class="day-title">WEDNESDAY – BACK + BICEPS</div>
+        <div class="subtitle">Session time: 6:30–7:45</div>
+    </div>
+
+    <div class="warmup-box">
+        <h4>WARM-UP (about 8 minutes)</h4>
+        <ul>
+            <li>Rowing machine: 3 minutes</li>
+            <li>Band pull-aparts: 2 × 15</li>
+            <li>Dead hang: 3 × 15–20 seconds</li>
+            <li>Arm circles: 1 minute</li>
+            <li>Bodyweight rows: 1 × 8</li>
+        </ul>
+    </div>
+
+    <h3>Main Workout</h3>
+
+    <h4>1. Lat Pulldown (Heavy) <span class="badge badge-heavy">PRIMARY</span></h4>
+    <p class="note">Week 1: about 60 / 67 / 75 / 75 kg. Aim for 8–10 controlled reps at those loads.</p>
+    <table>
+        <tr>
+            <th>Set</th><th>Reps</th><th>Weight</th><th>Rest</th>
+        </tr>
+        <tr>
+            <td>1</td><td>10</td><td>60–65 kg</td><td>2–2.5 min</td>
+        </tr>
+        <tr>
+            <td>2</td><td>8–10</td><td>67–70 kg</td><td>2–2.5 min</td>
+        </tr>
+        <tr>
+            <td>3</td><td>8–10</td><td>75 kg</td><td>2–2.5 min</td>
+        </tr>
+        <tr>
+            <td>4</td><td>8–10</td><td>75 kg</td><td>—</td>
+        </tr>
+    </table>
+
+    <h4>2. Superset: Dumbbell Row + Face Pull <span class="superset-label">SUPERSET</span></h4>
+    <p class="note">Week 1 DB row up to 20 kg; face pull 13–16 kg. Choose stable working weights and fill the rep ranges.</p>
+    <table>
+        <tr>
+            <th>Exercise</th><th>Sets</th><th>Reps</th><th>Weight</th><th>Rest</th>
+        </tr>
+        <tr>
+            <td class="exercise-name">2A: Dumbbell Row (single arm)</td>
+            <td>4</td>
+            <td>10–12 each side</td>
+            <td>18–20 kg</td>
+            <td>60 s → 2B</td>
+        </tr>
+        <tr>
+            <td class="exercise-name">2B: Face Pull (cable)</td>
+            <td>4</td>
+            <td>12–15</td>
+            <td>about 16 kg</td>
+            <td>90 s → 2A</td>
+        </tr>
+    </table>
+
+    <h4>3. Superset: Barbell Curl + Cable Curl <span class="superset-label">SUPERSET</span></h4>
+    <p class="note">Week 1 barbell curl 18–22 kg with decreasing reps; cable curl 11–13.5 kg. Add reps first before increasing load.</p>
+    <table>
+        <tr>
+            <th>Exercise</th><th>Sets</th><th>Reps</th><th>Weight</th><th>Rest</th>
+        </tr>
+        <tr>
+            <td class="exercise-name">3A: Barbell Bicep Curl</td>
+            <td>4</td>
+            <td>8–12</td>
+            <td>around 20–22 kg</td>
+            <td>60 s → 3B</td>
+        </tr>
+        <tr>
+            <td class="exercise-name">3B: Cable Curl</td>
+            <td>4</td>
+            <td>10–12</td>
+            <td>about 11–13.5 kg</td>
+            <td>90 s → 3A</td>
+        </tr>
+    </table>
+
+    <h4>4. Superset: Reverse Pec Deck + Hammer Curl <span class="superset-label">SUPERSET</span></h4>
+    <p class="note">Week 1: reverse pec deck 27–35 kg; hammer curl 10 kg each. Work toward 12–15 reps.</p>
+    <table>
+        <tr>
+            <th>Exercise</th><th>Sets</th><th>Reps</th><th>Weight</th><th>Rest</th>
+        </tr>
+        <tr>
+            <td class="exercise-name">4A: Reverse Pec Deck</td>
+            <td>3</td>
+            <td>12–15</td>
+            <td>27–35 kg</td>
+            <td>45 s → 4B</td>
+        </tr>
+        <tr>
+            <td class="exercise-name">4B: Dumbbell Hammer Curl</td>
+            <td>3</td>
+            <td>10–15</td>
+            <td>10 kg each</td>
+            <td>90 s → 4A</td>
+        </tr>
+    </table>
+
+    <h4>5. Core / Grip Finisher <span class="badge badge-pump">CORE</span></h4>
+    <table>
+        <tr>
+            <th>Exercise</th><th>Sets</th><th>Duration</th><th>Rest</th>
+        </tr>
+        <tr>
+            <td class="exercise-name">Dead Hang</td>
+            <td>3</td>
+            <td>15–20 seconds</td>
+            <td>30 s</td>
+        </tr>
+    </table>
+
+    <div class="cooldown-box">
+        <h4>Cool-down (about 6 minutes)</h4>
+        <ul>
+            <li>Lat stretch: about 45 s</li>
+            <li>Child’s pose or similar back stretch: about 45 s</li>
+            <li>Biceps/forearm stretch: 30 s each arm</li>
+            <li>Shoulder rotations: about 45 s</li>
+            <li>Easy breathing: about 2 minutes</li>
+        </ul>
+    </div>
+
+    <div class="session-summary">
+        <h4>Session Summary</h4>
+        <p><strong>Duration:</strong> about 70 minutes. <strong>Focus:</strong> lats, mid/upper back, biceps, rear delts. Keep most sets at RPE 7–8.</p>
+    </div>
+</div>
+
+<!-- PAGE 4: THURSDAY -->
+<div class="page">
+    <div class="header">
+        <h1>5-DAY HYPERTROPHY PROGRAM – WEEK 2</h1>
+        <div class="day-title">THURSDAY – UPPER PUSH B (INTENSITY)</div>
+        <div class="subtitle">Session time: 6:30–7:45</div>
+    </div>
+
+    <div class="warmup-box">
+        <h4>WARM-UP (about 8 minutes)</h4>
+        <ul>
+            <li>Light cardio: 3 minutes</li>
+            <li>Arm circles and band work: about 3 minutes</li>
+            <li>Bodyweight push-ups: 1 × 10</li>
+        </ul>
+    </div>
+
+    <h3>Main Workout</h3>
+
+    <h4>1. Chest Press (Rest-Pause) <span class="badge badge-metabolic">INTENSITY</span></h4>
+    <p class="note">Week 1: working sets at 60 kg. Practice rest-pause with the same load.</p>
+    <table>
+        <tr>
+            <th>Set</th><th>Reps</th><th>Weight</th><th>Rest</th><th>Notes</th>
+        </tr>
+        <tr>
+            <td>1</td><td>8–10</td><td>40–50 kg</td><td>2–2.5 min</td><td>Build-up set</td>
+        </tr>
+        <tr>
+            <td>2</td><td>8–10</td><td>60 kg</td><td>2–2.5 min</td><td>Normal set</td>
+        </tr>
+        <tr>
+            <td>3</td><td>6 + 3–4</td><td>60 kg</td><td>2–2.5 min</td><td>Rest-pause: 6 reps, rest 20–25 s, then 3–4 reps</td>
+        </tr>
+        <tr>
+            <td>4</td><td>6 + 3–4</td><td>60 kg</td><td>—</td><td>Same format</td>
+        </tr>
+    </table>
+
+    <h4>2. Lat Pulldown (Drop Set) <span class="badge badge-metabolic">INTENSITY</span></h4>
+    <p class="note">Week 1: about 75 kg. Use similar load for Week 2 and learn the drop-set structure.</p>
+    <table>
+        <tr>
+            <th>Set</th><th>Reps</th><th>Weight</th><th>Rest</th><th>Notes</th>
+        </tr>
+        <tr>
+            <td>1–3</td><td>8–10</td><td>75 kg</td><td>2 min</td><td>Standard sets</td>
+        </tr>
+        <tr>
+            <td>4</td><td>8 + 6–8 + 4–6</td><td>75 → about 55 → about 40 kg</td>
+            <td>—</td>
+            <td>Drop 25–30% each step, no rest between drops</td>
+        </tr>
+    </table>
+
+    <h4>3. Superset: DB Decline Press + Cable Lateral Raise <span class="superset-label">SUPERSET</span></h4>
+    <p class="note">Week 1: decline press 12–18 kg each; lateral raise 2.5–5 kg each.</p>
+    <table>
+        <tr>
+            <th>Exercise</th><th>Sets</th><th>Reps</th><th>Weight</th><th>Rest</th>
+        </tr>
+        <tr>
+            <td class="exercise-name">3A: Dumbbell Decline Press</td>
+            <td>4</td>
+            <td>8–10</td>
+            <td>12–18 kg each</td>
+            <td>60 s → 3B</td>
+        </tr>
+        <tr>
+            <td class="exercise-name">3B: Cable Lateral Raise</td>
+            <td>4</td>
+            <td>12–15</td>
+            <td>2.5–5 kg each</td>
+            <td>90 s → 3A</td>
+        </tr>
+    </table>
+
+    <h4>4. Superset: Skull Crusher + Cable Fly (Low to High) <span class="superset-label">SUPERSET</span></h4>
+    <p class="note">Week 1: skull crusher about 12 kg; cable fly about 7.5 kg per side.</p>
+    <table>
+        <tr>
+            <th>Exercise</th><th>Sets</th><th>Reps</th><th>Weight</th><th>Rest</th>
+        </tr>
+        <tr>
+            <td class="exercise-name">4A: Skull Crusher (EZ bar or DB)</td>
+            <td>3</td>
+            <td>10–12</td>
+            <td>about 12 kg</td>
+            <td>60 s → 4B</td>
+        </tr>
+        <tr>
+            <td class="exercise-name">4B: Cable Fly (Low to High)</td>
+            <td>3</td>
+            <td>12–15</td>
+            <td>about 7.5 kg each side</td>
+            <td>90 s → 4A</td>
+        </tr>
+    </table>
+
+    <h4>5. Core Finisher <span class="badge badge-pump">CORE</span></h4>
+    <table>
+        <tr>
+            <th>Exercise</th><th>Sets</th><th>Duration / Reps</th><th>Rest</th>
+        </tr>
+        <tr>
+            <td class="exercise-name">Plank</td>
+            <td>3</td>
+            <td>30–45 s</td>
+            <td>30 s</td>
+        </tr>
+        <tr>
+            <td class="exercise-name">Russian Twist</td>
+            <td>3</td>
+            <td>16–20 total</td>
+            <td>30 s</td>
+        </tr>
+    </table>
+
+    <div class="cooldown-box">
+        <h4>Cool-down (about 6 minutes)</h4>
+        <ul>
+            <li>Chest, shoulder, triceps and upper-back stretching: about 4 minutes total</li>
+            <li>Easy breathing: about 2 minutes</li>
+        </ul>
+    </div>
+
+    <div class="session-summary">
+        <h4>Session Summary</h4>
+        <p><strong>Duration:</strong> about 70 minutes. <strong>Focus:</strong> chest, shoulders, triceps and lats with higher intensity techniques.</p>
+    </div>
+</div>
+
+<!-- PAGE 5: FRIDAY -->
+<div class="page">
+    <div class="header">
+        <h1>5-DAY HYPERTROPHY PROGRAM – WEEK 2</h1>
+        <div class="day-title">FRIDAY – LOWER B (HEAVY DEADLIFT)</div>
+        <div class="subtitle">Session time: 6:30–7:50</div>
+    </div>
+
+    <div class="warmup-box">
+        <h4>WARM-UP (about 9 minutes)</h4>
+        <ul>
+            <li>Light cardio: 3 minutes</li>
+            <li>Bodyweight squats and leg swings: 3 minutes</li>
+            <li>Glute bridges and cat-cow: 3 minutes</li>
+        </ul>
+    </div>
+
+    <h3>Main Workout</h3>
+
+    <h4>1. Deadlift (Heavy) <span class="badge badge-heavy">PRIMARY</span></h4>
+    <p class="note">First week doing this day. Start conservatively at 60–70 kg, focus on form and RPE 7–8.</p>
+    <table>
+        <tr>
+            <th>Set</th><th>Reps</th><th>Weight</th><th>Rest</th>
+        </tr>
+        <tr>
+            <td>1</td><td>5</td><td>50 kg</td><td>3 min</td>
+        </tr>
+        <tr>
+            <td>2</td><td>5</td><td>60 kg</td><td>3 min</td>
+        </tr>
+        <tr>
+            <td>3</td><td>5</td><td>60–65 kg</td><td>3 min</td>
+        </tr>
+        <tr>
+            <td>4</td><td>5</td><td>60–70 kg (only if form is solid)</td><td>—</td>
+        </tr>
+    </table>
+    <div class="form-cue">
+        <strong>Form:</strong> Neutral spine, bar close to body, shoulders slightly in front of bar at start, drive through the floor, controlled lowering.
+    </div>
+
+    <h4>2. Front Squat <span class="badge badge-heavy">SECONDARY</span></h4>
+    <p class="note">Planned starting range: 30–40 kg. Use it as a technical movement and build from there.</p>
+    <table>
+        <tr>
+            <th>Sets</th><th>Reps</th><th>Weight</th><th>Rest</th>
+        </tr>
+        <tr>
+            <td>3–4</td><td>6–10</td><td>30–40 kg</td><td>2–2.5 min</td>
+        </tr>
+    </table>
+
+    <h4>3. Superset: Leg Press + Seated Leg Curl <span class="superset-label">SUPERSET</span></h4>
+    <p class="note">Planned starting range: leg press 150–170 kg; leg curl about 70 kg. Adjust based on fatigue from deadlifts.</p>
+    <table>
+        <tr>
+            <th>Exercise</th><th>Sets</th><th>Reps</th><th>Weight</th><th>Rest</th>
+        </tr>
+        <tr>
+            <td class="exercise-name">3A: Leg Press (machine)</td>
+            <td>3</td>
+            <td>10–12</td>
+            <td>150–170 kg</td>
+            <td>60 s → 3B</td>
+        </tr>
+        <tr>
+            <td class="exercise-name">3B: Seated Leg Curl</td>
+            <td>3</td>
+            <td>12–15</td>
+            <td>about 70 kg</td>
+            <td>90 s → 3A</td>
+        </tr>
+    </table>
+
+    <h4>4. Superset: Adductor + Standing Calf Raise <span class="superset-label">SUPERSET</span></h4>
+    <table>
+        <tr>
+            <th>Exercise</th><th>Sets</th><th>Reps</th><th>Weight</th><th>Rest</th>
+        </tr>
+        <tr>
+            <td class="exercise-name">4A: Adductor Machine</td>
+            <td>3</td>
+            <td>15–20</td>
+            <td>about 70–80 kg</td>
+            <td>45 s → 4B</td>
+        </tr>
+        <tr>
+            <td class="exercise-name">4B: Standing Calf Raise</td>
+            <td>3</td>
+            <td>12–15</td>
+            <td>about 80 kg</td>
+            <td>90 s → 4A</td>
+        </tr>
+    </table>
+
+    <h4>5. Core Finisher <span class="badge badge-pump">CORE</span></h4>
+    <table>
+        <tr>
+            <th>Exercise</th><th>Sets</th><th>Reps</th><th>Rest</th>
+        </tr>
+        <tr>
+            <td class="exercise-name">Hanging or lying leg raise</td>
+            <td>3</td>
+            <td>10–15</td>
+            <td>90 s</td>
+        </tr>
+    </table>
+
+    <div class="cooldown-box">
+        <h4>Cool-down (about 6 minutes)</h4>
+        <ul>
+            <li>Quad, hamstring, hip flexor and glute stretches: about 4 minutes total</li>
+            <li>Spinal stretch: about 1 minute</li>
+            <li>Easy breathing: about 1 minute</li>
+        </ul>
+    </div>
+
+    <div class="session-summary">
+        <h4>Session Summary</h4>
+        <p><strong>Duration:</strong> about 75 minutes. <strong>Focus:</strong> posterior chain, quads, calves, with priority on safe deadlift technique.</p>
+    </div>
+
+    <div class="session-summary">
+        <h4>Weekly Progression – Week 2</h4>
+        <p>
+            Use Week 1 loads as baselines. Aim to add a few reps across sets while keeping RPE around 7–8. 
+            Increase weight only after you can complete the top end of each rep range on all sets with solid form.
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
